@@ -1,0 +1,24 @@
+.content {
+    font-family: 'News Cycle', sans-serif;
+	margin: 60px 60px;
+	text-align: center; 
+}
+
+#site-header-tammy {
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+	text-align: center; 
+	line-height: 0.5em;
+}
+
+#caption {
+	font-style: italic;
+}
+
+#intro {
+	font-size: 20px;
+	text-align: center; 
+	font-style: italic;
+}
+
+
