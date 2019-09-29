@@ -1,0 +1,18 @@
+#post {
+	height: 100%;
+	font-size: 20px;
+	text-align: left;
+	font-family: Consolas;
+	margin-left: 120px;
+	border-right: 1px solid #E0E0E0;
+	width: 60%;
+	padding: 30px;
+	z-index: 1;
+	position:relative;
+	position:relative;
+}
+
+#content {
+	background-color: #fff9e6;
+	overflow: hidden;
+}
