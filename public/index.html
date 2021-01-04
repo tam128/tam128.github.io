@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    {{ range .Webpack.Manifest.Entrypoints.Styles }}
+        <link href="{{ . }}" rel="stylesheet">
+    {{ end }}
+
+    <div id="root"></div>
+    {{ range .Webpack.Manifest.Entrypoints.Scripts }}
+        <script src="{{ . }}"></script>
+    {{ end }}
+
+</body>
+
+</html>
